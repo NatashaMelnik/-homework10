@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,11 +17,11 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jsxArr {
+  color: aliceblue;
+  border: 2px solid rgb(108, 39, 173);
+  height: 230px;
+  width: 550px;
+  background-image: url(https://imgix.bustle.com/uploads/getty/2020/4/25/ba433b45-1ae3-4757-a7bb-239cf56d3fd5-getty-1218538177.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg);
+  opacity: 0.9;
 }
